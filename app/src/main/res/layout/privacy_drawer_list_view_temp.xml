@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewPrivacyItem"
+        android:src="@drawable/steven_jobs_9354805_2_402"
+        android:layout_width="@dimen/circleImageView"
+        android:layout_height="@dimen/circleImageView"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/textViewPrivacyItem"
+        android:text="Sample Sample Sample"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
